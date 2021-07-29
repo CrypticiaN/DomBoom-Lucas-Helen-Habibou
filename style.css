@@ -88,7 +88,6 @@ main{
     width: 100%;
     height: 60%;
     background-color: #020021;
-    justify-content: center;
     justify-content: space-around;
 }
 
@@ -97,23 +96,26 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    height: 100%;
+    width: 50%;
+    height: 600px;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 .everyone{
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bold;
-    align-items: left;
-    margin: 100px 100px 100px 100px;
+    width: 250px;
+    height: 100px;
+    margin-top: -135px;
 }
 
 .millions-songs{
     font-size: 18;
     font-weight: medium;
+    opacity: 50%;
+    margin-top: -10px;
 
 }
 
@@ -127,13 +129,94 @@ main{
 
 }
 
-.drum{
-    display: flex;
-    width: 60%;
+.drumsection{
+    display:flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 550%;
     height: auto;
     margin: 100px 100px 100px 100px;
+    position: relative;
+}
+.drum{
+    display: flex;
+    width: 600px;
+    height: 450px;
 }
 
+.redondo{
+    height: 103px;
+    width: 90px;
+    background-color:red;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 483px;
+    margin-top: 25px;
+    border: none;
+}
+.redondo2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 480px;
+    margin-top: 25px;
+}
+.redondo3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 380px;
+    margin-top: 127px;
+}
+.redondo4{
+    height: 135px;
+    width: 135px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top: 70px;
+}
+.redondo5{
+    height: 135px;
+    width: 135px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 145px;
+    margin-top: 70px;
+}
+.redondo6{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 387px;
+    margin-top: 127px;
+}
+.redondo7{
+    height: 135px;
+    width: 135px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-right: 288px;
+    margin-top: 238px;
+}
+.redondo8{
+    height: 135px;
+    width: 135px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 288px;
+    margin-top: 238px;
+}
 footer{
     justify-content: center;
     display: flex;
