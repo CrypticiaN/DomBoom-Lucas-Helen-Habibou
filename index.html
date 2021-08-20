@@ -12,62 +12,62 @@
 
 
     <body>
-        <div class="container">
             
-            <nav>
-            <div class="domboom">
-                <img class="imgdomboom"src="domboom-logo.png" alt="Hit the DomBom">
-            </div>
-            <div class="navhead">
-                <ul class="ulhead">
-                    <li><a>Premium</a></li>
-                </ul>
-                <ul class="ulhead">
-                    <li><a>Help</a></li>
-                </ul>
-                <ul class="ulhead">
-                    <li><a>Download</a></li>
-                </ul>
-                <ul class="ulhead">
-                    <li><a style="color: #01AE86;">Sign Up</a></li>
-                </ul>
-                <ul class="ulheadbarra">|</ul>
-                <ul class="ulhead">
-                    <li><a>Log In</a></li>
+            <header>
+                <button class="menu"><img src="menu.png" alt="menu"></button>
+                <div class="header_logo">
+                    <img src="domboom-logo.png" alt="Hit the DomBoom">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a>Premium</a></li>                    
+                        <li><a>Help</a></li>
+                        <li><a>Download</a></li>
+                        <li><a style="color: #01AE86;">Sign Up</a></li>
+                        <li>|</li>
+                        <li><a>Log In</a></li>
                     </ul>
-            </div>
                 </nav>
+            </header>
 
             <main>
-            <div class="musicfor">
-                <p class="everyone">Music for <br> everyone.</p>
-                <p class="millions-songs">Millions of songs. No credit card needed</p>
-                <button class="hit-it">Hit the</button>
-            </div>   
-            <div class="drumsection">    
-                <img class="drum" src="drumkit.png" alt="Drumpad">
-                <div class="botones">
-                    <button class="redondo"></button>
-                    <button class="redondo2"></button>
-                    <button class="redondo3"></button>
-                    <button class="redondo4"></button>
-                    <button class="redondo5"></button>
-                    <button class="redondo6"></button>
-                    <button class="redondo7"></button>
-                    <button class="redondo8"></button>
-                 </div>
+                <div class="musicfor">
+                    <p class="main_everyone">Music for <br> everyone.</p>
+                    <p class="main_millions-songs">Millions of songs. No credit card needed</p>
+                    <button class="main_hit-it">Hit the</button>
+                </div>   
+                <div class="drumsection"> 
+                    <div class="drumYbotones">   
+                        <img class="drum" src="drumkit.png" alt="Drumpad">
+                    
+                        <button data-boton="crash"  class="crash" type="button" value="crash"></button>
+                        <button data-boton="hithat"  class="hit-hat" type="button"></button>
+                        <button data-boton="redoblante" class="redoblante" type="button"></button>
+                        <button data-boton="tom1" class="tom1" type="button"></button>
+                        <button data-boton="tom2" class="tom2" type="button"></button>
+                        <button data-boton="ride" class="ride" type="button"></button>
+                        <button data-boton="tomDePiso" class="tomDePiso" type="button"></button>
+                        <button data-boton="platillo" class="platillo" type="button"></button>
+                    </div>
+                </div>
+                <audio id="crash" src="audios/crash.wav"></audio>
+                <audio id="hithat" src="audios/hithat.wav"></audio>
+                <audio id="redoblante" src="audios/redoblante.wav"></audio>
+                <audio id="tom1" src="audios/tom1.wav"></audio>
+                <audio id="tom2" src="audios/tom2.wav"></audio>
+                <audio id="ride" src="audios/tom3.wav"></audio>
+                <audio id="tomDePiso" src="audios/tom4.wav"></audio>
+                <audio id="platillo" src="audios/bombo.wav"></audio>
+            </main>
 
-
-                
-            </div>
-                </main>
-
-            <footer>
-            <p class="premium">Try Premium free for 1 month.<br>
+        <section>
+            <button class="button-hit">Hit</button>
+            <p>Try Premium free for 1 month.<br>
            <span> Play millions of songs ad free, on demand, and offline. </span>
             </p>
             <button class="premium1">SEE PRICING</button>
-                </footer>
-        </div>
+        </section>
+        
+       <script src="main.js"></script> 
     </body>
 </html>
